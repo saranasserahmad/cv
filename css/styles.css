@@ -41,14 +41,14 @@ text-decoration: underline;
 
 .top-cloud {
 position: absolute;
-right: 100px;
+right: 50px;
 top: 50px;
 
 
 }
 .bottom-cloud {
 position: absolute;
-left: 100px;
+left: 50px;
 bottom: 300px;
 }
 
