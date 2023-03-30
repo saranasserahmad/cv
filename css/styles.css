@@ -40,17 +40,15 @@ text-decoration: underline;
 
 
 .top-cloud {
-//position: absolute;
-//right: 50px;
- margin-right: 50px;
+position: absolute;
+right: 100px;
 top: 50px;
 
 
 }
 .bottom-cloud {
 position: absolute;
- margin-left: 50px;
-//left: 50px;
+left: 100px;
 bottom: 300px;
 }
 
