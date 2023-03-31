@@ -1,0 +1,184 @@
+
+body {
+color: #40514E;
+margin: 0;
+text-align: center;
+font-family: 'Merriweather', serif;
+// font-family: serif / sans-serif / moonspace / fantasy
+}
+
+hr {
+border: dotted #EAF6F6 6px;
+border-bottom: none;
+width: 20%;
+}
+
+h1 {
+color: #57C5B6;
+font-family: 'Sacramento', cursive;
+margin-top: 50px;
+margin-bottom: 0px;
+font-size: 562.5%;
+line-height: 2em;
+// normal size = 16px, or 1em, if i want 90px: 90/16 = 562.5 * 100, or 5.625em
+// if the body for example had font-size = 2em, and here font-size = 5em, then total applied is
+// 7em
+// to avoid this affect from the parent, use rem unit instead of em.
+}
+
+h2 {
+color: #57C5B6;
+margin-top: 50px;
+margin-bottom: 0px;
+font-family: 'Montserrat', sans-serif;
+font-size: 2.5rem;
+font-weight: normal;
+}
+
+h3 {
+color: #57C5B6;
+font-family: 'Alkatra', cursive;
+}
+
+.top-div {
+background-color: #E1EEDD;
+position: relative;
+padding-top: 100px;
+}
+
+.cat {
+width: 25%;
+float: left;
+}
+
+.touch{
+margin-top: 70px;
+}
+
+
+.languages {
+margin-left: 32%;
+}
+
+.middle-div {
+}
+
+.bottom-div {
+margin-top: 25px;
+//padding-top: 10px;
+//padding-bottom: 10px;
+padding: 50px 0 50px;
+color: #57C5B6;
+background-color: #E1EEDD;
+}
+
+.copy-right{
+margin-bottom: 0px;
+font-size: 0.75rem;
+padding: 20px 0;
+}
+
+a{
+margin: 10px 10px;
+text-decoration: none;
+}
+
+a:hover {
+color: #245953;
+}
+
+
+.skill-row{
+width: 50%;
+margin: 100px auto 100px auto;
+text-align: left;
+
+}
+
+.pro {
+text-decoration: underline;
+}
+
+
+.top-cloud {
+position: absolute;
+right: 100px;
+top: 50px;
+
+
+}
+.bottom-cloud {
+position: absolute;
+left: 100px;
+bottom: 300px;
+}
+
+
+.me {
+margin-top: 30px;
+}
+
+.btn{
+color: #57C5B6;
+}
+
+
+.footer-link{
+color: #57C5B6;
+}
+
+
+.btn {
+-webkit-border-radius: 28;
+-moz-border-radius: 28;
+border-radius: 28px;
+text-shadow: 0px 0px 2px #138531;
+font-family: "Montserrat";
+color: #ffffff;
+font-size: 20px;
+background: #9ab888;
+padding: 10px 20px 10px 20px;
+text-decoration: none;
+}
+
+.btn:hover {
+  background: #009917;
+  text-decoration: none;
+}
+
+
+// 1-
+// display: block; ==> the element takes the entire box,
+ //does not allow any other element to align with it,
+ //This styles allows adjusting the width
+
+// 2-
+//display: inline; ==> the element allows other elements
+ //to align with it. This styles does not
+ //allow adjusting the width
+
+// 3-
+ //display: inline-block; ==> allows elements to align
+ // with it, and allows adjusting the width
+
+// 4-
+// display: none; ==> removes the element and its space
+// visibility: hidden; ==> removes the element but keeps its own space
+
+//--------------------
+
+1-
+//position: relative; default is static
+//left: 50px; ==> move the element by 50 px to the RIGHT
+// of where it used to be
+
+2-
+//position: absolute: compares the element relative to its parent
+//exp. if the element is in a div, then padding= 30px, then
+// the element will keep a padding of 30px to its parent which
+// is the div
+
+3-
+//position: fixed: keep the element fixed in its place even when scrolling
+// up, down, left, right
+
